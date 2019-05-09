@@ -4,8 +4,6 @@ public class LimitException extends Exception {
 
     private double remainingAmount;
 
-
-
     public LimitException(String s) {
         super(s);
     }
@@ -16,7 +14,6 @@ public class LimitException extends Exception {
     public double getRemaingAmount() {
         return 0;
     }
-
 
     public LimitException(String message,double remainingAmount) {
         super(message);

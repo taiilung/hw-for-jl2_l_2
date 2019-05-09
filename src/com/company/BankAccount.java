@@ -14,7 +14,7 @@ public class BankAccount {
 
         public double withDraw(double sum)throws LimitException{
         if(sum > amount ){
-            throw new LimitException("Запращиваемая сумма на снятие больше чем остаток на счёте");
+            throw new LimitException("Запрашиваемая сумма на снятие больше чем остаток на счете");
         }
         return amount=amount-sum;
 
